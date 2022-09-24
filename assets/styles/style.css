@@ -1,0 +1,231 @@
+body{
+    margin:0;
+    
+}
+
+header{
+    background-image: url(../images/back.png);
+    height:100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+ .mainmenu{
+    padding-top:10px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+ }
+
+.container{
+    margin: 0px 245px;
+}
+
+.menu{
+    color:black;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    margin-right: 40px;
+    opacity: 0.6;
+}
+
+.menu:hover{
+color: blueviolet;
+}
+
+.menu:active{
+    color: #f60368;
+}
+
+.button{
+    background: #D23166;
+    border-radius: 5px;
+    padding:14px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: 'Hind Madurai', sans-serif;
+    width:85px;
+    height: 24px;
+    text-align: center;
+}
+
+.butt{
+    text-decoration:none;
+    color: white;
+}
+
+.button:hover{
+    background-color: #860731;
+}
+
+.button:active::first-letter{
+    color:rgb(192, 8, 243);
+}
+
+.button2{
+    background: #D23166;
+    border-radius: 5px;
+    padding:14px 50px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    font-family: 'Hind Madurai', sans-serif;
+    width: 85px;
+    height: 24px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.butt2{
+    text-decoration:none;
+    color: white;
+}
+.button2:hover{
+    background-color: #860731;
+}
+
+.button2:active::first-letter{
+    color:rgb(192, 8, 243);
+}
+
+.littletext{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.1em;
+}
+.bigtext{
+    font-family: 'Fredoka One', cursive;
+    font-size: 57px;
+    font-weight: 400;
+    line-height: 120.5%;
+}
+.undertext{
+    padding-top: 35px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    opacity:0.6;
+}
+
+.text{
+    position: absolute;
+    text-align: left;
+    left:254px;
+    top:285px;
+    
+}
+
+#button2{
+    background: #D23166;
+    border-radius: 5px;
+    position: absolute;
+    font-family: 'Hind Madurai', sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    padding: 15px 52px;
+    text-align: left;
+    left:254px;
+    top:600px;
+    font-weight: 700;
+    line-height: 22px;
+    color: white;
+}
+
+.textimg{
+display: flex;
+}
+
+.images{
+    position: relative;
+}
+
+#ice-cream{
+    position: absolute;
+    width: 597px;
+    height: 597px;
+    left: 889px;
+    top:30px;
+}
+
+#milk{
+    position: absolute;
+    width: 851.86px;
+    height: 548.1px;
+    left: 740px;
+    top: 190px;
+}
+
+.pics{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.pic{
+    /* background-color: rgb(114, 118, 122); */
+    margin-right: 39px;
+    margin-top: 100px;
+}
+
+.car{
+    display:flex;
+    justify-content:center;
+    padding-top: 10px;
+    
+}
+
+.cartext1{
+    display: flex;
+    justify-content:center;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+
+.cartext2{
+    text-align: center;
+    justify-content:center;
+    margin-top: 9px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 0.6;
+}
+
+.car2{
+    display:flex;
+    justify-content:center;
+}
+
+.cartext3{
+    display: flex;
+    justify-content:center;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 28px;
+}
+.cartext4{
+    text-align: center;
+    justify-content:center;
+    margin-top: 9px;
+    font-family: 'Hind Madurai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 0.6;
+}
